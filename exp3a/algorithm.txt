@@ -1,0 +1,20 @@
+Experiment Number: 3a
+
+Title: Factorial Using Recursion Using C++.
+
+Problem Statement: Write a C++ program to calculate the factorial of a given number using recursion.
+
+Algorithm:
+
+1.	Read the number and declare the variable fact to store the factorial of the number.
+
+2.	We know that the factorial of a number n is fact(n)=n*fact(n-1)
+        Where, n is the number 
+        fact means factorial.
+
+3.	The above equation acts as base condition.
+
+4.	First check if the number is equal to zero if zero return the value 1
+        If not zero then call the function recursively according to the equation n*fact(n-1).
+
+5.	Return the variable fact.
