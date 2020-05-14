@@ -1,0 +1,32 @@
+Experiment Number: 6a
+
+Title: Implementation of Insertion in Binary Search Tree Recursively Using       C++.
+
+Problem Statement: Write a C++ program to demonstrate the insertion in BST using recursion.
+
+Algorithm:
+
+1.	Create a class called BST.
+
+2.	Inside class declare a variable called data to hold the node value.
+
+3.	Declare the two pointers left and right that point to the left and right child respectively.
+
+4.	Declare the default constructor which initializes the data variable to 0, left pointer and right pointer to NULL.
+
+5.	Declare the parameterized constructor which takes root as argument and inserts the root node and initializes the left and right pointers to NULL.
+
+6.	Declare and define the function called insert which takes the node pointer and value as argument and returns the modified node pointer.
+	i.	This function first checks the value of the pointer.
+		If NULL, then it inserts the first node by calling the function parameterized constructor and stops.
+		If Not NULL, then compare the value of the variable “value” with the value at the pointer. 
+		If value is greater than the value at pointer then call the same function but with the arguments right pointer and value recursively so that the value is inserted at the right side.
+		If value is not greater than the value at pointer then call the same function but with the arguments left pointer and value recursively so that the value is inserted at the left side.
+	ii.	Return the pointer.
+
+7.	Declare and define the function called inorder which takes root pointer as argument.
+	i.	This function first checks the value of the root pointer if NULL then it does nothing and stops. If Not NULL then it calls the same function with argument left pointer recursively, prints the root node value and then it calls the same function with argument right pointer recursively.
+
+8.	In main function call the insert function as many times as you wish.
+
+9.	Call the inorder function to display the BST in order

@@ -1,0 +1,58 @@
+Experiment Number: 5
+
+Title: Implementation of Linked List Using C++.
+
+Problem Statement: Write a menu driven C++ program to create the linked list using C++ and perform the following functions.
+
+i.	Create
+ii.	Insert
+iii.	Delete
+iv.	Search
+v.	Display
+
+Algorithm:
+
+1.	Start.
+
+2.	Create a class called Node. In Node class declare a variable called data to store the data of node and declare a pointer to the object of class Node called next to hold the address of the next node.
+
+3.	Create a child class of class Node called linkedlist. 
+	i.	In this class declare two pointers called head and tail which represent the first and the last nodes of the list.
+	ii.	Initialize these pointers to NULL using constructor function.
+	iii.	Declare the functions to create, insert, delete, search and display.
+
+4.	Display the operations to the user and ask them to enter the choice and based on the choice perform the operations.
+
+5.	
+
+I) For create operation,
+	i.	Declare the pointer which points to the new object of class Node so that it points to new memory location. 
+	ii.	Read the value from the user and store it in the data variable which is pointed by pointer created and make the next address field of node NULL so that it points to nothing.
+	iii.	Check if the head of the list is NULL means list is empty,
+		If yes, then store the address of the current element in the head and tail which become the first and the last nodes respectively. 
+		If No, then store the address of the current element in the next address field of the tail so that the last element becomes the current element and store the address of the current element in the tail pointer which becomes the tail of the list.
+
+II) For insert operation,
+	i.	Declare the pointer which points to the new object of class Node so that it points to new memory location. 
+	ii.	Read the value from the user and store it in the data variable which is pointed by pointer created and make the next address field of node NULL so that it points to nothing.
+	iii.	Assign the next address field of the current element with the address of the head of the list so that the current element becomes the head of the list and store address of current element in the head variable.
+
+III) 		For delete operation,
+	i.	First check if the list is empty or not.
+		If Yes, then display deletion not possible.
+		If No, then ask the user to enter the position of the element , search the position and then load the next address field of the previous node (position) with the next address field of the current node(position) so that the previous node pointer points to the element that is next to the current element.
+
+IV) For Search operation,
+	i.	First check if the list is empty or not.
+		If Yes, then display empty list.
+		If No, 
+	i.	Then create the pointer of object of the class Node and load the value of head into the pointer.
+	ii.	Ask the user to enter the value to be searched.
+	iii.	Compare the value with the data pointed by the pointer If they are same then display the position of the element and stop. Load the pointer with the next address field of the node to point to the next element. Repeat this step till the last node or element is found.
+	iv.	Display the message element not found.
+
+V) For display operation,
+             i. 	Create the pointer of object of class Node and load the value of head into the pointer.
+             ii.          Check if pointer is NULL if yes, display empty list
+                            If No,
+                            Starting from head till tail display the elements.

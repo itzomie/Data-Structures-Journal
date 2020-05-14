@@ -1,0 +1,15 @@
+Experiment Number: 6c
+
+Title: Implementation of Search operation in Binary tree Using C++.
+
+Problem Statement: Write a C++ program to implement the search operation in Binary tree.
+
+Algorithm:
+
+•	Whenever an element is to be searched, start searching from the root node
+
+•	Then if the data is less than the key value, search for the element in the left subtree. 
+
+•	Otherwise, search for the element in the right subtree. 
+
+•	Follow the same steps for each node

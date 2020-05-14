@@ -1,0 +1,29 @@
+Experiment Number: 6b
+
+Title: Implementation of Binary Tree traversal Using C++.
+
+Problem Statement: Write a C++ program to implement the following Binary Tree traversal Using C++.
+
+i.	In order Traversal.
+ii.	Post order Traversal.
+iii.	Pre order Traversal.
+
+Algorithm:
+
+In order Traversal-
+Until all nodes are traversed − 
+•	Step 1 − Recursively traverse left subtree. 
+•	Step 2 − Visit root node. 
+•	Step 3 − Recursively traverse right subtree.
+
+Post order Traversal-
+Until all nodes are traversed − 
+•	Step 1 − Recursively traverse left subtree. 
+•	Step 2 − Recursively traverse right subtree. 
+•	Step 3 − Visit root node.
+
+Pre order Traversal -
+Until all nodes are traversed − 
+•	Step 1 − Visit root node. 
+•	Step 2 − Recursively traverse left subtree. 
+•	Step 3 − Recursively traverse right subtree.

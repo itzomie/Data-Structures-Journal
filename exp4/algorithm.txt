@@ -1,0 +1,27 @@
+
+Experiment Number: 4
+
+Title: Implementation of Queue Using C.
+
+Problem Statement: 
+                      Write a menu driven program in C to perform following operations on the Queue.
+i.	Insert
+ii.	Delete
+
+Algorithm:
+
+             Start.
+
+1.	Create the Queue by declaring the array of fixed size.
+
+2.	Initialize the variables front and rear to -1 which indicate the front end and rear end of the queue respectively.
+
+3.	I) For insert operation, 
+            First check if rear has reached to the last of the queue if yes don’t insert the new element, if no, increment the rear variable so that it points to next location of queue and insert the new element.
+	II) For delete operation,
+            First check if front variable is -1 or front>rear which indicates all the elements are deleted from the queue,
+    		
+		If yes, don’t delete.
+    		If no, return the element from the front index and increment the front variable so that it points to the next value.
+
+4.	Stop. 
