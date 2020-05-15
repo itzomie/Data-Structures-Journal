@@ -1,0 +1,18 @@
+Experiment Number: 3c
+
+Title: Conversion from Prefix to Postfix Expression Using Recursion.
+
+Problem Statement: Write a C++ program to convert a prefix expression into postfix expression using recursion.
+
+Algorithm:
+
+1.	Read the Prefix expression in reverse order (from right to left).
+
+2.	If the symbol is an operand, then push it onto the Stack.
+
+3.	If the symbol is an operator, then pop two operands from the Stack
+	Create a string by concatenating the two operands and the operator after them.
+	string = operand1 + operand2 + operator
+	And push the resultant string back to Stack.
+
+4.	Perform the above steps recursively until end of Prefix expression.

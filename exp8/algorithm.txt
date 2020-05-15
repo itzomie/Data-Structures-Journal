@@ -1,0 +1,15 @@
+EXPERIMENT 8
+
+IMPLEMENTATION OF QUICKSORT
+
+Problem statement:
+
+Write a C++ program to arrange the given set of numbers in ascending order using Quick sort.
+
+Algorithm:
+
+•	Pick the first element as pivot element.
+
+•	Now all the elements smaller than pivot are placed at its left while elements bigger are placed at right.
+
+•	Repeat the above two steps recursively for both halves.

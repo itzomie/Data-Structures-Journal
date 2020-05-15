@@ -1,0 +1,18 @@
+Experiment Number: 3b
+
+Title: Fibonacci Sequence Using Recursion in C++.
+
+ Problem Statement: Write C++ program to generate Fibonacci sequence using recursion.
+
+Algorithm:
+
+1.	Read the number of terms in the Fibonacci sequence from user.
+
+2.	Starting from 0 till the number of terms minus 1 call the function fib() which calculates the Fibonacci of the number and display the Fibonacci of that number.
+
+3.	In fib function,
+
+	1)	If the number is 0 or 1 return the number as it is.
+	2)	If number is other than 0 or 1 then call the fib() function recursively as per the equation 
+		fibterm=fib(n-1)+fib(n-2)
+	3)	Return the fibterm.
