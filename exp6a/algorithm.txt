@@ -30,3 +30,8 @@ Algorithm:
 8.	In main function call the insert function as many times as you wish.
 
 9.	Call the inorder function to display the BST in order
+
+ANALYSIS (LIMITATIONS): 
+
+The disadvantage is that it takes O(logn) time to modify the list (balanced trees take longer - this is for the baseline) and to retrieve elements with a known location. These can be done in constant time in some other data structures. Heaps are another common type of binary tree.
+
