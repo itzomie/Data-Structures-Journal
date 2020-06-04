@@ -13,3 +13,11 @@ Algorithm:
 •	Now all the elements smaller than pivot are placed at its left while elements bigger are placed at right.
 
 •	Repeat the above two steps recursively for both halves.
+
+Analysis:
+•	Quick Sort is not adaptive. 
+•	On sorted data, Quick Sort devolves to O(n^2) performance. 
+•	It is not stable. It is less than ideal for highly repetitive data. 
+•	It's not always fast or ideal, although for the AVERAGE case, it's acceptably efficient in time and memory. 
+•	On sorted data for large N, it's 15–16 times SLOWER than Bubble Sort
+
