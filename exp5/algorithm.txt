@@ -56,3 +56,10 @@ V) For display operation,
              ii.          Check if pointer is NULL if yes, display empty list
                             If No,
                             Starting from head till tail display the elements.
+
+
+ANALYSIS(LIMITATIONS): 
+
+1. More memory is required to store elements in linked list as compared to array. Because in linked list each node contains a pointer and it requires extra memory for itself. 
+
+2. Elements or nodes traversal is difficult in linked list 
