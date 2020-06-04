@@ -16,3 +16,8 @@ Algorithm:
 	2)	If number is other than 0 or 1 then call the fib() function recursively as per the equation 
 		fibterm=fib(n-1)+fib(n-2)
 	3)	Return the fibterm.
+
+Analysis/Limitations: 
+There are following limitations of above implementation. 
+Time Complexity: We can observe that this implementation does a lot of repeated work. So this is a bad implementation for nth Fibonacci number
+
