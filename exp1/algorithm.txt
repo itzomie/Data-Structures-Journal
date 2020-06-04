@@ -6,3 +6,8 @@ Algorithm:
 3.	I) For push operation, first increment the top variable by 1 so that it points to next empty location.
         Store the value entered by the user into the index top.
         II) For pop operation, first return the value from index top and then decrement the top variable.
+        
+ANALYSIS(LIMITATIONS): 
+1. While using array to implement stack is easy, it has limitation that the stack cannot grow beyond a fixed size (of array). 
+2. The time complexity increase in insertion and depletion operation. - Wastage of memory because arrays are fixed in size. - If there is enough space present in the memory but not in continuous form, in this case we cannot initialise the array.
+
