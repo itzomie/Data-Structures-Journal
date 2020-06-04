@@ -27,3 +27,10 @@ Until all nodes are traversed −
 •	Step 1 − Visit root node. 
 •	Step 2 − Recursively traverse left subtree. 
 •	Step 3 − Recursively traverse right subtree.
+
+
+ANALYSIS(LIMITATIONS): 
+
+The main disadvantage is that we should always implement a balanced binary search tree - AVL tree, Red-Black tree, Splay tree. Otherwise the cost of operations may not be logarithmic and degenerate into a linear search on an array.
+
+
