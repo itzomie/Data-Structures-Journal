@@ -16,3 +16,11 @@ Algorithm:
 	And push the resultant string back to Stack.
 
 4.	Perform the above steps recursively until end of Prefix expression.
+
+Analysis:
+We have implemented the conversion from prefix to postfix expression using recursive approach but it has some limitations associated with it:
+1.	Recursion takes a lot of stack space, usually not considerable when the program is small and running on a PC.
+2.	Recursion uses more processor time.
+3.	Recursive solution is always logical and it is very difficult to trace (debug and understand).
+4.	This implementation considers a single digit we can extend it to many digits by modifying the code.
+
