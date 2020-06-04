@@ -13,3 +13,10 @@ Algorithm:
 •	Otherwise, search for the element in the right subtree. 
 
 •	Follow the same steps for each node
+
+
+ANALYSIS (LIMITATIONS): 
+
+1. Slower insertion/deletion of elements. 
+
+2. Not a great choice for linear trees (degenerate tree - more or less a sorted linked list) 
