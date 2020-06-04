@@ -25,3 +25,11 @@ Algorithm:
     		If no, return the element from the front index and increment the front variable so that it points to the next value.
 
 4.	Stop. 
+
+ANALYSIS (LIMITATIONS): 
+
+1.More memory is required to store elements in linked list as compared to array. Because in linked list each node contains a pointer and it requires extra memory for itself. 
+
+2.Elements or nodes traversal is difficult in linked list. 
+
+
