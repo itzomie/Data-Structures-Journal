@@ -18,3 +18,14 @@ Algorithm:
         If not zero then call the function recursively according to the equation n*fact(n-1).
 
 5.	Return the variable fact.
+
+
+5. Analysis/Limitations: 
+There are following limitations of above implementation. 
+Disadvantages of recursion: 
+•	Fairly slower than its iterative solution. 
+•	For each step we make a recursive call to a function.
+•	May cause stack-overflow if the recursion goes too deep to solve the problem. 
+•	Difficult to debug and trace the values with each step of recursion. 
+
+
